@@ -332,10 +332,10 @@
 		82D2655D2D866B5E000E7D75 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				82D2655C2D866B5E000E7D75 /* HomeVC.swift */,
 				82D265562D866B5E000E7D75 /* BollTypeVC */,
 				82D2655A2D866B5E000E7D75 /* DifficultyVC.swift */,
 				82D2655B2D866B5E000E7D75 /* HomeChildVC.swift */,
-				82D2655C2D866B5E000E7D75 /* HomeVC.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
