@@ -182,10 +182,10 @@
 		8231F7432D2EBB9300D7FB4B /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				82D265892D866C0C000E7D75 /* Difficulty.swift */,
 				8231F7412D2EBB8C00D7FB4B /* MessageContent.swift */,
 				82D265852D866BEF000E7D75 /* BollType.swift */,
 				82D265872D866BFE000E7D75 /* LevelModel.swift */,
-				82D265892D866C0C000E7D75 /* Difficulty.swift */,
 				82D2658B2D866C1A000E7D75 /* BollData.swift */,
 			);
 			path = DataModel;
