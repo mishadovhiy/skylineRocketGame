@@ -171,22 +171,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8231F7392D2EA7F500D7FB4B /* DataType */ = {
+		8231F7392D2EA7F500D7FB4B /* HelperDataType */ = {
 			isa = PBXGroup;
 			children = (
 				8231F7382D2EA7F500D7FB4B /* PhysicsCategory.swift */,
 			);
-			path = DataType;
+			path = HelperDataType;
 			sourceTree = "<group>";
 		};
 		8231F7432D2EBB9300D7FB4B /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
 				82D265892D866C0C000E7D75 /* Difficulty.swift */,
-				8231F7412D2EBB8C00D7FB4B /* MessageContent.swift */,
 				82D265852D866BEF000E7D75 /* BollType.swift */,
 				82D265872D866BFE000E7D75 /* LevelModel.swift */,
 				82D2658B2D866C1A000E7D75 /* BollData.swift */,
+				8231F7392D2EA7F500D7FB4B /* HelperDataType */,
+				82E368452D95F32600FF3F13 /* UIHelper */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -214,7 +215,6 @@
 				828158EB2D28609400B08333 /* SceneDelegate.swift */,
 				828159222D28A29300B08333 /* Keys.swift */,
 				8231F7432D2EBB9300D7FB4B /* DataModel */,
-				8231F7392D2EA7F500D7FB4B /* DataType */,
 				8281592B2D28A31700B08333 /* Service */,
 				828158E52D28609400B08333 /* Assets.xcassets */,
 				82EF17C22D2CD83900CA77AA /* Node */,
@@ -417,6 +417,14 @@
 				82D265942D866EB6000E7D75 /* AudioVC.swift */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		82E368452D95F32600FF3F13 /* UIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8231F7412D2EBB8C00D7FB4B /* MessageContent.swift */,
+			);
+			path = UIHelper;
 			sourceTree = "<group>";
 		};
 		82EF17BF2D2CD67E00CA77AA /* Scene */ = {
