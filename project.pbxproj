@@ -23,6 +23,7 @@
 		828159302D28A73300B08333 /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281592F2D28A73300B08333 /* UINavigationItem.swift */; };
 		828159332D28A83700B08333 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828159322D28A83700B08333 /* NotificationManager.swift */; };
 		828159372D28BAC500B08333 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828159362D28BAC500B08333 /* UIView.swift */; };
+		8289D8D82D9C7AB3001B6C40 /* TutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289D8D72D9C7AB3001B6C40 /* TutorialVC.swift */; };
 		82A984702D2EC30900273AB1 /* JosefinSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82A9846B2D2EC30900273AB1 /* JosefinSans-Light.otf */; };
 		82A984712D2EC30900273AB1 /* JosefinSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82A984692D2EC30900273AB1 /* JosefinSans-Bold.otf */; };
 		82A984722D2EC30900273AB1 /* JosefinSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82A9846E2D2EC30900273AB1 /* JosefinSans-SemiBold.otf */; };
@@ -101,6 +102,7 @@
 		8281592F2D28A73300B08333 /* UINavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationItem.swift; sourceTree = "<group>"; };
 		828159322D28A83700B08333 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		828159362D28BAC500B08333 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		8289D8D72D9C7AB3001B6C40 /* TutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialVC.swift; sourceTree = "<group>"; };
 		82A984692D2EC30900273AB1 /* JosefinSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.otf"; sourceTree = "<group>"; };
 		82A9846A2D2EC30900273AB1 /* JosefinSans-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-ExtraLight.otf"; sourceTree = "<group>"; };
 		82A9846B2D2EC30900273AB1 /* JosefinSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Light.otf"; sourceTree = "<group>"; };
@@ -286,6 +288,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		8289D8D92D9C7AC6001B6C40 /* TutorialVC */ = {
+			isa = PBXGroup;
+			children = (
+				8289D8D72D9C7AB3001B6C40 /* TutorialVC.swift */,
+			);
+			path = TutorialVC;
+			sourceTree = "<group>";
+		};
 		82A984772D2EC30E00273AB1 /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +349,7 @@
 				82D265562D866B5E000E7D75 /* BollTypeVC */,
 				82D2655A2D866B5E000E7D75 /* DifficultyVC.swift */,
 				82D2655B2D866B5E000E7D75 /* HomeChildVC.swift */,
+				8289D8D92D9C7AC6001B6C40 /* TutorialVC */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -579,6 +590,7 @@
 				82D265992D866EB6000E7D75 /* ContentBaseVC.swift in Sources */,
 				8231F73A2D2EA7F500D7FB4B /* PhysicsCategory.swift in Sources */,
 				82D2658A2D866C0C000E7D75 /* Difficulty.swift in Sources */,
+				8289D8D82D9C7AB3001B6C40 /* TutorialVC.swift in Sources */,
 				828158F32D28609400B08333 /* SceneDelegate.swift in Sources */,
 				828159252D28A2C300B08333 /* GameVC.swift in Sources */,
 				82A984792D2EC32900273AB1 /* UIFont.swift in Sources */,
@@ -621,11 +633,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = FQA2XH9ZUM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SkylineSprint/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Space ship";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_NSCameraUsageDescription = "To upload profile pickture for the Leaderboard, we need access to your Camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -656,11 +669,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = FQA2XH9ZUM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SkylineSprint/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Space ship";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_NSCameraUsageDescription = "To upload profile pickture for the Leaderboard, we need access to your Camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
