@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82126EE72DAB929E0081983A /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82126EE62DAB929E0081983A /* NetworkModel.swift */; };
 		8231F7362D2E9F7E00D7FB4B /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231F7352D2E9F7E00D7FB4B /* Int.swift */; };
 		8231F73A2D2EA7F500D7FB4B /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231F7382D2EA7F500D7FB4B /* PhysicsCategory.swift */; };
 		8231F7422D2EBB8C00D7FB4B /* MessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231F7412D2EBB8C00D7FB4B /* MessageContent.swift */; };
@@ -84,6 +85,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82126EE62DAB929E0081983A /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		8231F7352D2E9F7E00D7FB4B /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		8231F7382D2EA7F500D7FB4B /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
 		8231F7412D2EBB8C00D7FB4B /* MessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageContent.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				828159292D28A30F00B08333 /* DB.swift */,
+				82126EE62DAB929E0081983A /* NetworkModel.swift */,
 				828159322D28A83700B08333 /* NotificationManager.swift */,
 				82D2659A2D86725B000E7D75 /* FileManagerModel.swift */,
 				827BBF4E2D8D0D02006FFDC7 /* AdManager.swift */,
@@ -560,6 +563,7 @@
 				8231F7362D2E9F7E00D7FB4B /* Int.swift in Sources */,
 				82D2658C2D866C1A000E7D75 /* BollData.swift in Sources */,
 				82D265702D866B5E000E7D75 /* HomeVC.swift in Sources */,
+				82126EE72DAB929E0081983A /* NetworkModel.swift in Sources */,
 				82D265842D866B8B000E7D75 /* CALayer.swift in Sources */,
 				82D265712D866B5E000E7D75 /* AboutVC.swift in Sources */,
 				82D265722D866B5E000E7D75 /* LeaderboardVC.swift in Sources */,
