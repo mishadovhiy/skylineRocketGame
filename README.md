@@ -3,6 +3,9 @@
         <br>
         </p>
 
+<div>
+          <img width="30%" src="https://mishadovhiy.com/imgs/spaceship/1.PNG">
+</div>
 
 https://github.com/user-attachments/assets/de3fae0d-34bd-4d10-95db-77119b45cf6c
 
